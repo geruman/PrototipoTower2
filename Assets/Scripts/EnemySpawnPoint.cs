@@ -6,9 +6,10 @@ public class EnemySpawnPoint : MonoBehaviour
 {
     [SerializeField] GameObject[] waypoints;
     [SerializeField] GameObject enemyPrefab;
-    [SerializeField] float spawnDelay = 2f;
+    [SerializeField] float spawnDelay = 1f;
     private float nextSpawnIn;
     private int enemiesLeftToSpawn;
+    public int enemiesInWave = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +38,7 @@ public class EnemySpawnPoint : MonoBehaviour
         }
         if (Input.GetKeyDown("p") && enemiesLeftToSpawn <= 0)
         {
-            enemiesLeftToSpawn = 5;
+            enemiesLeftToSpawn = enemiesInWave;
             nextSpawnIn = 0;
         }
     }

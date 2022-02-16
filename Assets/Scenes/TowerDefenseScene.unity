@@ -213,6 +213,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3687679381379658970, guid: 53912f90fbd36764185f119a03094571, type: 3}
+      propertyPath: spawnDelay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3687679381379658970, guid: 53912f90fbd36764185f119a03094571, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
       objectReference: {fileID: 304343137}
@@ -454,6 +458,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 112967958652898290, guid: 95536f5bc471ebd40a55be3a6fba62be, type: 3}
+      propertyPath: turretRange
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 112967958652898293, guid: 95536f5bc471ebd40a55be3a6fba62be, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -511,6 +519,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 112967958652898290, guid: 95536f5bc471ebd40a55be3a6fba62be, type: 3}
+      propertyPath: turretRange
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 112967958652898293, guid: 95536f5bc471ebd40a55be3a6fba62be, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -814,6 +826,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 112967958652898290, guid: 95536f5bc471ebd40a55be3a6fba62be, type: 3}
+      propertyPath: turretRange
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 112967958652898293, guid: 95536f5bc471ebd40a55be3a6fba62be, type: 3}
       propertyPath: m_RootOrder
       value: 7
