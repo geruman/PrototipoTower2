@@ -17,6 +17,7 @@ public class TurretBulletMovement : MonoBehaviour
         if (target != null)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.transform.position,2*Time.deltaTime);
+            
             if (Vector2.Distance(transform.position, target.transform.position) < 0.5f)
             {
                 Destroy(gameObject);

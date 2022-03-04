@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8466059614579491280}
   - component: {fileID: 8466059614579491279}
   - component: {fileID: 8466059614579491278}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EnemyPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,3 +95,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c36f8b18ec0e83459a6523700880469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoints: []

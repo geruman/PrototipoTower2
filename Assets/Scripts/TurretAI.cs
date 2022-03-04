@@ -6,13 +6,14 @@ public class TurretAI : MonoBehaviour
 {
     private float shootDelay = 1f;
     private float shootIn = 0;
-    public float turretRange = 4f;
+    public float turretRange = 2f;
     [SerializeField] GameObject bulletPrefab;
     // Start is called before the first frame update
     void Start()
     {
         
     }
+
 
     private void FixedUpdate()
     {
@@ -26,6 +27,7 @@ public class TurretAI : MonoBehaviour
             }   
         }
         shootIn -= Time.deltaTime;
+        
     }
     private GameObject GetClosestEnemy()
     {
